@@ -6,7 +6,7 @@ public class ForDemo {
         System.out.println("Введите число");
         int number ;
         number = in.nextInt();
-        for(count = number; count<5;count = count +1)
+        for(count = number; count<5;count++)
             System.out.println("Значение count = " + count);
 
     }
